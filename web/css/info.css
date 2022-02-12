@@ -1,0 +1,105 @@
+
+.bloque1{
+	height: 60px;
+	background-color: #000;
+}
+.bloque1-1{
+	height: 60px;
+	background-color: #000;
+}
+.contenedorInfo{
+	background-color: #000;
+}
+
+.textoInfo b{
+	color: F9F9F9;
+	font-weight: bold;
+}
+
+.imga{
+	border-radius: 10px;
+	width: 50%;
+	margin: auto;
+	border-radius: 10px;
+}
+@-webkit-keyframes imga {
+  from {
+   	border: 2px solid #5EF0CF;
+  	box-shadow: -1px 1px 30px #5EF0CF;
+  }
+  to {
+    border: 2px solid gray;
+  
+  	box-shadow: -1px 1px 20px gray;
+  }
+}
+
+
+
+.imga{
+  -webkit-animation: imga 2s ease-in-out infinite alternate;
+  -moz-animation: imga 2s ease-in-out infinite alternate;
+  animation: imga 2s ease-in-out infinite alternate;
+  
+ 
+}
+.informacionInfo{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+.ContendorTexto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.textoInfo{
+	color: #B7B7B7;
+	font-family: 'Raleway', sans-serif;
+}
+.ContendorImag{
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.Minombre h1{
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 3em;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.neons h1{
+	font-family: 'Be Vietnam Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.neons span {
+	font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    color: #fff;
+    text-shadow: 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF, 0 0 4px #5EF0CF;
+  }
+  to {
+    color: gray;
+        text-shadow: 0 0 4px #00fff2, 0 0 4px #00fff2, 0 0 4px #00fff2, 0 0 4px #00fff2, 0 0 4px #00fff2, 0 0 4px #00fff2, 0 0 4px #00fff2, 0 1 4px #00fff2;
+  }
+}
+.Minombre span{
+	text-shadow: -1px 1px 2px #5EF0CF;
+	color:#5EF0CF;
+}

@@ -1,0 +1,38 @@
+
+/*.contenedorProyectos{
+ background: #DFDFDF;
+}
+
+.bloque3{
+	height:60px;
+	background-color: #DFDFDF;
+}
+.contenedorTextoProyect{
+	position: relative;
+}
+.contendorCarousel{
+	
+}*/
+.TituloKairos h2{
+	color: #1D46AF;;
+	display: flex;
+	place-items: left;
+	font-size: 50px;
+}
+.TituloHelmekey h2{
+	color: red;;
+	display: flex;
+	place-items: left;
+	font-size: 50px;
+
+}
+
+.textKairos b{
+	color: blue;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+

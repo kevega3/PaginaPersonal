@@ -1,0 +1,425 @@
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+
+
+  <style>
+    .Cuerpo {
+      background: #f3f3f3;
+      padding: 0;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      position: relative;
+      margin: 0;
+      height: 100%;
+    }
+    
+    .wrapper {
+    	height: auto !important;
+    	height: 100%;
+    	margin: 0 auto; 
+    	overflow: hidden;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    
+    .H1Demo, .H2Demo {
+      width: 100%;
+      float: left;
+    }
+    .H1Demo{
+      margin-top: 25px;
+      color: #000;
+      margin-bottom: 5px;
+      font-size: 50px;
+      letter-spacing: -4px;
+    }
+    .H2Demo {
+      color: #444;
+      font-weight: 100;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .pointer {
+      color: #9b59b6;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      margin-top: 15px;
+    }
+
+
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+      background: #020C1B;
+    }
+    
+    
+    
+    
+    
+    .clear {
+      width: auto;
+    }
+    /*.btn:hover, .btn:hover {
+      background: rgba(0,0,0,0.8);
+    }*/
+    .btns {
+      width: 410px;
+      margin: 50px auto;
+    }
+    .credit {
+      text-align: center;
+      color: #444;
+      padding: 10px;
+      margin: 0 0 0 0;
+      background: #161923;
+      color: #5EF0CF;
+      float: left;
+      width: 100%;
+    }
+    .credit a {
+      color: #5EF0CF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      display: block;
+      padding: 7px;
+      width: 100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.25);
+      font-weight: bold;
+      font-size: 13px;
+      color: #000;
+      -webkit-transition: all 200ms ease-out;
+      -moz-transition: all 200ms ease-out;
+      -o-transition: all 200ms ease-out;
+      transition: all 200ms ease-out;
+    }
+    .back:hover {
+      color: black;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    
+    
+    .page_container {
+      max-width: 960px;
+      margin: 50px auto;
+    }
+
+    .header {
+      background: white;
+      padding-top: 10px;
+      margin-bottom: 0;
+    }
+    
+
+    .header .menu {
+      padding-bottom: 10px;
+    }
+
+    .benefits {
+      color: black;
+      height: 100px;
+      background: #FFF;
+      position: relative;
+      width: 100%;
+      padding: 25px;
+      font-size: 40px;
+      font-weight: 100;
+      float: left;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+
+    .benefits .page_container{
+      margin-bottom: 50px;
+      margin-top: 0;
+    }
+  
+    .immersive_slider .is-slide .content h2{
+      line-height: 140%;
+      font-weight: 100;
+      color: white;
+      font-weight: 100;
+    }
+    .immersive_slider .is-slide .content a {
+      color: white;
+    }
+  
+  .immersive_slider .is-slide .content p{
+    float: left;
+    font-weight: 100;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 5px;
+  }.Cuerpo .one .bsa_it_ad { background: transparent; border: none; font-family: 'Raleway', sans-serif; padding: 0 15px 0 10px; margin: 0; text-align: center; }
+.Cuerpo .one .bsa_it_ad:hover img { -moz-box-shadow: 0 0 3px #000; -webkit-box-shadow: 0 0 3px #000; box-shadow: 0 0 3px #000; }
+.Cuerpo .one .bsa_it_ad .bsa_it_i { display: block; padding: 0; float: none; margin: 0 0 5px; }
+.Cuerpo .one .bsa_it_ad .bsa_it_i img { padding: 0; border: none; }
+.Cuerpo .one .bsa_it_ad .bsa_it_t { padding: 6px 0; }
+.Cuerpo .one .bsa_it_ad .bsa_it_d { padding: 0; font-size: 12px; color: #333; }
+.Cuerpo .one .bsa_it_p { display: none; }
+.Cuerpo #bsap_aplink, body #bsap_aplink:hover { display: block; font-size: 10px; margin: 12px 15px 0; text-align: center; }
+
+.ads {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  z-index: 99;
+  text-align: center;
+  max-width: 200px;
+}
+
+.ads a {
+  color: black;
+}
+
+.ad-header {
+  margin: 0 0 -2px 0px;
+  background: white;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.ad-header a {
+  float: right;
+  border-left: 1px solid #5EF0CF;
+  padding:10px;
+  line-height: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+.ad-header a:hover {
+  background: #eee;
+}
+
+.ads .promo {
+  position: absolute;
+  top: -195px;
+  left: 0;
+}
+
+.message {
+  max-width: 550px;
+  margin: 50px auto 0;
+  padding: 14px;
+  background: #72EC80;
+  color: #0E530E;
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 3px;
+}
+
+.success-message a{
+  color: black;
+  border-bottom: 1px dotted #000;
+}
+
+.success-message {
+  background: #72EC80;
+  color: #0E530E;
+}
+
+.error-message a{
+  color: #FFF;
+  border-bottom: 1px dotted #fff;
+}
+
+.error-message {
+  background: #EC7272;
+  color: #FFF;
+}
+
+	  
+#carbonads {
+  --width: 180px;
+  --font-size: 14px;
+}
+
+#carbonads {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  max-width: var(--width);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
+  background-color: hsl(0, 0%, 98%);
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+
+#carbonads a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#carbonads a:hover {
+  color: inherit;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  display: block;
+  margin-bottom: 8px;
+  max-width: var(--width);
+  line-height: 1;
+}
+
+.carbon-img img {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--width) !important;
+  width: var(--width);
+  height: auto;
+}
+
+.carbon-text {
+  display: block;
+  padding: 0 1em 8px;
+}
+
+.carbon-poweredby {
+  display: block;
+  padding: 10px var(--font-size);
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  #carbonads {
+    float: none;
+    margin: 0 auto;
+    max-width: 330px;
+  }
+  #carbonads span {
+    position: relative;
+  }
+  #carbonads > span {
+    max-width: none;
+  }
+  .carbon-img {
+    float: left;
+    margin: 0;
+  }
+
+  .carbon-img img {
+    max-width: 130px !important;
+  }
+  .carbon-text {
+    float: left;
+    margin-bottom: 0;
+    padding: 8px 20px;
+    text-align: left;
+    max-width: calc(100% - 130px - 3em);
+  }
+  
+  .carbon-poweredby {
+    left: 130px;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }}}
+
+
+  
+	</style>
+
+  <div class="Cuerpo">
+  <div class="wrapper">
+	  <!-- AdPacks.com Zone Code -->
+      <div class="ads">
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYI5KJE&placement=wwwthepetedesigncom" id="_carbonads_js"></script>
+      </div>
+      <!-- End AdPacks.com Zone Code -->
+    <div class="main">
+      <div class="page_container">
+        <div id="immersive_slider">
+          <div class="slide" data-blurred="../../img/pexels-photo-109998.jpg">
+            <div class="content">
+              <h2 class="TituloKairos text-primary">Kairós.com</h2>
+              <p class="textProyecto">Con mi equipo de Trabajo Desarrollamos un <b>sistema de información</b> llamado <b>KAIRÓS</b> que es un proyecto integral donde se aplico <b>Análisis ,diseño ,implementación ,pruebas y ajustes</b> para la sistematización y automatización de procesos de la empresa <b>Lito-Impresores.</b>
+                <br>
+                <br> 
+                Este proyecto consta en <b>4 módulos</b> los cuales són <b>Proveedores,Ventas ,Inventario y Usuarios</b>
+                </p>
+            </div>
+            <div class="image">
+              <a href="#" target="_blank">
+                <img src="../../img/Kairos.png" alt="Slider 1">
+              </a>
+            </div>
+          </div>
+          <div class="slide" data-blurred="../../img/pexels-photo-2694434.jpg">
+            <div class="content">
+              <h2 class="TituloHelmekey text-danger">Helmekey.com</h2>
+              <p class="textProyecto">
+                  Proyecto <b>Helmekey</b> es para motos, es para moteros,es un proyecto creado para todas esas personas que desean hacerle <b>mantenimiento</b> a sus motos.
+                  <br>
+                  <br>
+                  El fin de este <b>Proyecto</b> es <b>sistematizar</b> a la empresa <b>Helmekey</b>, con el fin de llevar un <b>registro</b> de sus clientes y así mejorar la <b>atención al cliente.</b>
+                </p>
+            </div>
+            <div class="image">
+             <a href="http://www.bucketlistly.com/apps" target="_blank"> <img src="../../img/Helmekey.png" alt="Slider 1"></a>
+            </div>
+          </div>
+          
+          <a href="#" class="is-prev">&laquo;</a>
+          <a href="#" class="is-next">&raquo;</a>
+        </div>
+      </div>
+  	</div>
+  	
+  	<script type="text/javascript">
+  	  $(document).ready( function() {
+  	    $("#immersive_slider").immersive_slider({
+  	      container: ".main"
+  	    });
+  	  });
+
+    </script>
+  </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11278966-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11278966-3');
+</script>
+
+
+</div>
+

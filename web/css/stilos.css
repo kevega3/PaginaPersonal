@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	margin: 0;
+	position: relative;
+	padding-bottom: 13em;
+	min-height: 100vh;
+	margin: 0;
+}
+
+
+.HeaderContenedor{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+
+	background-image: url("https://images.pexels.com/photos/5695301/pexels-photo-5695301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.ContenedorSegundario{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.escritura{
+	/*font-size: 3.5vw;*/
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #FFF;
+}
+.Subtitulo{
+	font-family: 'Raleway', sans-serif;
+	color: #D3D5DD;
+	color: white;
+/*	font-size: 5vw;*/
+}
+#particles-js{
+	height: 100vh;
+	width: 100%;
+}
+.media{
+	
+}
+
+.contentSub{
+	top:40%;
+	bottom:40%;
+	left: 10%;
+	right: 10%;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contentBtn{
+	z-index: 0;
+	position: absolute;
+	right: 2%;
+	bottom: 3%;
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: 1em;*/
+
+
+}
+.btonHV{
+	border: 0.2vw solid #5EF0CF;
+	color: #5EF0CF;
+	padding: 1vw;
+	font-weight: bold;
+	position: absolute;
+	right: 2%;
+	bottom: 3%;
+	border-radius: 7px;
+}
+.btonHV:hover{
+	border: 0.2vw solid #5EF0CF;
+	background: #5EF0CF;
+}
+.web{
+	color: #5EF0CF;
+}
+
+@media screen and (max-width: 767px){
+
+	.textoInfo{
+		font-size: 18px;
+	}
+	.neons{
+		font-size: 15px;
+	}
+	
+
+	.escritura{
+		font-size: 38px;
+	}
+	.Subtitulo{
+		font-size: 15px;
+	}
+	
+}
+
+
+@media screen and (min-width: 768px){
+
+	.textoInfo{
+		font-size: 21px;
+	}
+	.neons{
+		font-size: 25px;
+	}
+	.escritura{
+		font-size:50px;
+	}
+	.Subtitulo{
+		font-size: 20px;
+	}
+
+}
+

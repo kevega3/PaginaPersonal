@@ -1,0 +1,41 @@
+#marco{
+  width:100%;
+  max-width: 600px;
+  border: 2px solid brown;
+  height: 300px;
+}
+#cuadro{
+  width: 50px;
+  height: 50px;
+  background: #e74c3c;
+  position:relative;
+  animation: movimientoCuadro 4s linear infinite;
+}
+
+@keyframes movimientoCuadro{
+  0%{
+    left:0;
+    top:0;
+   
+  }
+  25%{
+    top:0;
+    left:550px;
+    border-radius:50%;
+    background: #f1c40f;
+  }
+  50%{
+    top:250px;
+    left:550px;
+  }
+  75%{
+    top:250px;
+    left:0;
+    background: #27ae60;
+  }
+  100%{
+    top:0px;
+    left:0;
+    border-radius:0;
+  }
+}
